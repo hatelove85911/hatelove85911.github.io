@@ -3,17 +3,20 @@
 <head>
   <meta charset="utf-8">
   
-  <title>Atige&#39;s Blog</title>
+  <title>Integrate D3 chart into UI5 Application | Atige&#39;s Blog</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="Javascript rock!">
-<meta property="og:type" content="website">
-<meta property="og:title" content="Atige's Blog">
-<meta property="og:url" content="http://me.atige.tech/index.html">
+  <meta name="description" content="You don’t need to create custom control for chartsIn my last project, I encoutered a situation that I need to incorporate d3 chart into ui5 appliation. I googled around and found some posts about this">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Integrate D3 chart into UI5 Application">
+<meta property="og:url" content="http://me.atige.tech/2016/03/23/Integrate-D3-chart-into-UI5-Application/index.html">
 <meta property="og:site_name" content="Atige's Blog">
-<meta property="og:description" content="Javascript rock!">
+<meta property="og:description" content="You don’t need to create custom control for chartsIn my last project, I encoutered a situation that I need to incorporate d3 chart into ui5 appliation. I googled around and found some posts about this">
+<meta property="og:image" content="http://me.atige.tech/2016/03/23/Integrate-D3-chart-into-UI5-Application/final_result.png">
+<meta property="og:updated_time" content="2016-03-23T10:17:42.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Atige's Blog">
-<meta name="twitter:description" content="Javascript rock!">
+<meta name="twitter:title" content="Integrate D3 chart into UI5 Application">
+<meta name="twitter:description" content="You don’t need to create custom control for chartsIn my last project, I encoutered a situation that I need to incorporate d3 chart into ui5 appliation. I googled around and found some posts about this">
+<meta name="twitter:image" content="http://me.atige.tech/2016/03/23/Integrate-D3-chart-into-UI5-Application/final_result.png">
   
     <link rel="alternate" href="/atom.xml" title="Atige&#39;s Blog" type="application/atom+xml">
   
@@ -66,9 +69,7 @@
   </div>
 </header>
       <div class="outer">
-        <section id="main">
-  
-    <article id="post-Integrate-D3-chart-into-UI5-Application" class="article article-type-post" itemscope itemprop="blogPost">
+        <section id="main"><article id="post-Integrate-D3-chart-into-UI5-Application" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
     <a href="/2016/03/23/Integrate-D3-chart-into-UI5-Application/" class="article-date">
   <time datetime="2016-03-23T10:17:42.000Z" itemprop="datePublished">2016-03-23</time>
@@ -81,8 +82,8 @@
       <header class="article-header">
         
   
-    <h1 itemprop="name">
-      <a class="article-title" href="/2016/03/23/Integrate-D3-chart-into-UI5-Application/">Integrate D3 chart into UI5 Application</a>
+    <h1 class="article-title" itemprop="name">
+      Integrate D3 chart into UI5 Application
     </h1>
   
 
@@ -123,92 +124,26 @@
     </footer>
   </div>
   
-</article>
-
-
+    
+<nav id="article-nav">
   
-    <article id="post-Set-Up-Your-Own-Blogging-Site-Using-Hexo" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2016/03/20/Set-Up-Your-Own-Blogging-Site-Using-Hexo/" class="article-date">
-  <time datetime="2016-03-20T07:40:55.000Z" itemprop="datePublished">2016-03-20</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
   
-    <h1 itemprop="name">
-      <a class="article-title" href="/2016/03/20/Set-Up-Your-Own-Blogging-Site-Using-Hexo/">Set Up Your Own Blogging Site Using Hexo</a>
-    </h1>
+    <a href="/2016/03/20/Set-Up-Your-Own-Blogging-Site-Using-Hexo/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title">Set Up Your Own Blogging Site Using Hexo</div>
+    </a>
   
+</nav>
 
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>Recently, I came across <a href="https://pages.github.com/" target="_blank" rel="external">github pages</a>, github pages is a service which github helps you host your static site in github repository, it’s completely free to everyone. So I’m thinking to have my own blog site to start blogging. The first tool I started using is <a href="https://jekyllrb.com/" target="_blank" rel="external">jekyll</a> because it’s recommended at the bottom of github pages website.<br><img src="/2016/03/20/Set-Up-Your-Own-Blogging-Site-Using-Hexo/jekyll_recommend.png" alt="jekyll" title="jekyll"><br>I played around with jekyll and octopress( a blogging framework built on top of jekyll ) for a few days. I finally give up. The reason is jekyll is written in ruby, all the thing around ruby including the language , tools and commands are just foreign to me as a javascripter. And another reason is that I feel it’s getting a little complex when octopress is involved ( maybe it’s due to the first reason, ruby is not my thing… ).  </p>
-<p>I googled around static site generator built on nodejs ( if you’re javascripter, you know the feeling we have for node ). Finally, I found <a href="https://hexo.io/" target="_blank" rel="external"><strong>Hexo</strong></a>, which is extremly simple, easy to use blog generator, it only took me a few minutes to get my site running on my local pc, and a few more minutes to deploy it on github pages. If you know javascript and nodejs, I highly recommend try hexo and start blogging and share your good ideas to the world! Now let’s get started! BTW, the blog you’re looking at now is the very first blog written on Hexo.</p>
-<h1 id="Prerequisites"><a href="#Prerequisites" class="headerlink" title="Prerequisites"></a>Prerequisites</h1><h3 id="Knowledge"><a href="#Knowledge" class="headerlink" title="Knowledge"></a>Knowledge</h3><ol>
-<li>You should have some basic knowledge about git and github</li>
-<li>You’ll need to use some command line tools</li>
-<li>You’ll need to know markdown to blog</li>
-</ol>
-<h3 id="Things-you-need-to-have"><a href="#Things-you-need-to-have" class="headerlink" title="Things you need to have"></a>Things you need to have</h3><ol>
-<li>terminal ( I’m using <a href="https://www.iterm2.com/" target="_blank" rel="external">iTerm2</a>)</li>
-<li><a href="https://git-scm.com/" target="_blank" rel="external">git</a></li>
-<li><a href="https://nodejs.org/en/" target="_blank" rel="external">nodejs</a></li>
-<li>of course, your favorite text editor (mine is vim)</li>
-<li>github user account (prefer ssh key configured, otherwise ssh git repo url won’t work, if you use https repo url, then you’ll have to enter username and password when deploying)</li>
-</ol>
-<h1 id="Get-Started"><a href="#Get-Started" class="headerlink" title="Get Started"></a>Get Started</h1><h3 id="Install-Hexo"><a href="#Install-Hexo" class="headerlink" title="Install Hexo"></a>Install Hexo</h3><p>Go to your terminal and enter the following command:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install -g hexo-cli</span><br></pre></td></tr></table></figure></p>
-<p>It’ll take a while to have hexo installed, have some patience and treat yourself a cup of coffee.</p>
-<h3 id="Init-Hexo-Blog-Site"><a href="#Init-Hexo-Blog-Site" class="headerlink" title="Init Hexo Blog Site"></a>Init Hexo Blog Site</h3><p>Create your blog site using following command:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo init [sitename]</span><br></pre></td></tr></table></figure></p>
-<p>Hexo will start initiating your initial blog site in the <code>sitename</code> directory. <code>sitename</code> is just a placeholder, choose whatever sitename you want. After done, you’ll have the directory looks like below:<br><img src="/2016/03/20/Set-Up-Your-Own-Blogging-Site-Using-Hexo/hexo_initial_file_structure.png" alt="initial hexo blog site structure" title="initial hexo blog site structure"></p>
-<h3 id="Running-Your-Blog-Site-Locally"><a href="#Running-Your-Blog-Site-Locally" class="headerlink" title="Running Your Blog Site Locally"></a>Running Your Blog Site Locally</h3><p>In the directory of your blog site, run command:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo server</span><br></pre></td></tr></table></figure></p>
-<p>This will start a local http server serving your site on port 4000 by default, so now you should be able to open your site locally at <a href="http://localhost:4000" target="_blank" rel="external">http://localhost:4000</a>. If everything is working fine, you should now see your blog site like below:<br><img src="/2016/03/20/Set-Up-Your-Own-Blogging-Site-Using-Hexo/hexo_default_site.png" alt="Local Blog Site" title="Local Blog Site"><br>Your blog site is already looking great, isn’t it?  And hexo has included a default “hello world” post to show you how your blog looks like.</p>
-<h3 id="Create-Your-First-Post"><a href="#Create-Your-First-Post" class="headerlink" title="Create Your First Post"></a>Create Your First Post</h3><p>I won’t cover all the details about how to use hexo to blog, you can find all the information on hexo’s <a href="https://hexo.io/docs/" target="_blank" rel="external">official website</a>. But in here, I’ll show you how easy it is to create a post and start blogging. In the blog site directory, run following command to create your first post:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo new &quot;My First Blog on Hexo&quot;</span><br></pre></td></tr></table></figure></p>
-<p>This will create a markdown file <code>My-First-Blog-on-Hexo.md</code> under <code>source/_posts/</code> directory, and now if you open your local blog site again, you can see your first blog is shown on your blog site ( if you’re doing along with me, you need to use <code>ctrl</code>+<code>c</code> to terminate the previous server and run <code>hexo server</code> again to see the changes )<br><img src="/2016/03/20/Set-Up-Your-Own-Blogging-Site-Using-Hexo/myfirstpost.png" alt="My First Blog on Hexo" title="My First Blog on Hexo"><br>Next, let’s deploy our blog site to github pages and show the world <strong>WHO I AM</strong>! (don’t carry away too far)</p>
-<h3 id="Create-a-Github-Site-Repository-for-Your-User"><a href="#Create-a-Github-Site-Repository-for-Your-User" class="headerlink" title="Create a Github Site Repository for Your User"></a>Create a Github Site Repository for Your User</h3><p>Follow the guide on <a href="https://pages.github.com/" target="_blank" rel="external">github pages</a> to create a repository for a website fo your user. In the end, you’ll create a repository like this: <code>youruser/youruser.github.io</code>.</p>
-<h3 id="Install-hexo-deployer-git-npm-module"><a href="#Install-hexo-deployer-git-npm-module" class="headerlink" title="Install hexo-deployer-git npm module"></a>Install hexo-deployer-git npm module</h3><p>In your blog site directory, run following command:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-deployer-git --save</span><br></pre></td></tr></table></figure></p>
-<p>This will install the <code>hexo-deployer-git</code> npm module locally as a dependency for your site, the module is a plugin to Hexo to help you deploy your site to github repository with zero effort.</p>
-<h3 id="Config-Deploy-to-Git-in-config-yml"><a href="#Config-Deploy-to-Git-in-config-yml" class="headerlink" title="Config Deploy to Git in _config.yml"></a>Config Deploy to Git in _config.yml</h3><p>There’s a <code>_config.yml</code> file located in root directory of your blog site. The config file is a central place where you do configuration to your whole website. Some default configuration is already in the file when Hexo initialze your blog site. You can find a tonne of available configuration option at Hexo’s website. For now, we’ll just add configuration of deploy to git at the bottom of the config file:<br><img src="/2016/03/20/Set-Up-Your-Own-Blogging-Site-Using-Hexo/deploy_to_git_config.png" alt="Deploy to Git Configuration" title="Deploy to Git Configuration"></p>
-<h3 id="Deploy-to-Github-Pages"><a href="#Deploy-to-Github-Pages" class="headerlink" title="Deploy to Github Pages"></a>Deploy to Github Pages</h3><p>Finally, we reach here! Now Let’s deploy to our github page repository. It’s rather simple, just run the following command in your blog site directory:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo deploy</span><br></pre></td></tr></table></figure></p>
-<p>You should see some log generated by hexo and in the end, it tells you <code>deploy done</code>. Congrats!!! Now you have your own blog site up and running. Quickly open url in browser to see your website: <a href="http://youruser.github.io/" target="_blank" rel="external">http://youruser.github.io/</a>.</p>
-<h3 id="Work-on-Same-Blog-Any-Time-Any-Where"><a href="#Work-on-Same-Blog-Any-Time-Any-Where" class="headerlink" title="Work on Same Blog Any Time Any Where"></a>Work on Same Blog Any Time Any Where</h3><p>Now you have your blog site up and running, you can start writing your wonderful blog in markdown and deploy to github pages without any issue. It’s fine for simple cases: you always blog on the same machine and you’ll bring it with you wherever you go. For a more practical scenario, the way we did lacks flexibility, for instance, you start a blog at home on your home PC, you can’t finish it immediately and you go to work and you want to continue to work on that blog on your company PC.</p>
-<p>To be able to work on the same blog on different machines at any time, we need to use git repository. It’s really simple, probably you already know how to do that. But I’ll still elaborate the details for readers who are git and github beginners.</p>
-<p>The theory here is: github pages will only serve static content on the <code>master</code> branch (it’ll be <code>gh-pages</code> branch for project site) of your repository. So you only need to create another branch to store your work in process blogs, and these blogs won’t be served until you deploy them to the <code>master</code> branch. Let’s see how to do that:</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">git init                        </span><br><span class="line">git checkout -b source          </span><br><span class="line">git add .                       </span><br><span class="line">git commit -m &quot;initial commit&quot;  </span><br><span class="line">git remote add origin git@github.com:youruser/youruser.github.io.git </span><br><span class="line">git push --set-upstream origin source</span><br></pre></td></tr></table></figure>
-<p>What above command does:</p>
-<ol>
-<li>initialize your blog site directory as a git repository</li>
-<li>create a new branch: source and checkout to that branch</li>
-<li>staging all the untracked content and changed content</li>
-<li>create a commit with message “initial commit”</li>
-<li>add a remote source: origin whose url is git@github.com:youruser/youruser.github.io.git</li>
-<li>push your work in process content to the source branch of origin upstream</li>
-</ol>
-<p>Now you wip content is pushed and stored on the source branch of github. Next time you want to work on that blog, you only need to pull the source branch to your local machine and keep working on that. Now You can close your laptop and go to work with confidence that you can keep working on that blog when you reach office.</p>
-<h3 id="The-End"><a href="#The-End" class="headerlink" title="The End"></a>The End</h3><p>Happy blogging!!!<br>Thanks for reading!!!<br>Leave comment if you have any question or comments.</p>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://me.atige.tech/2016/03/20/Set-Up-Your-Own-Blogging-Site-Using-Hexo/" data-id="cim4hx0lz000dhhx90sxxnyrl" class="article-share-link">Share</a>
-      
-        <a href="http://me.atige.tech/2016/03/20/Set-Up-Your-Own-Blogging-Site-Using-Hexo/#disqus_thread" class="article-comment-link">Comments</a>
-      
-      
-    </footer>
-  </div>
   
 </article>
 
 
-  
-
+<section id="comments">
+  <div id="disqus_thread">
+    <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+  </div>
+</section>
 </section>
         
           <aside id="sidebar">
@@ -288,11 +223,13 @@
 <script>
   var disqus_shortname = 'meatigetech';
   
+  var disqus_url = 'http://me.atige.tech/2016/03/23/Integrate-D3-chart-into-UI5-Application/';
+  
   (function(){
     var dsq = document.createElement('script');
     dsq.type = 'text/javascript';
     dsq.async = true;
-    dsq.src = '//' + disqus_shortname + '.disqus.com/count.js';
+    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
     (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
   })();
 </script>
