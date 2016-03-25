@@ -16,7 +16,9 @@
 <meta property="og:image" content="http://me.atige.tech/2016/03/20/Set-Up-Your-Own-Blogging-Site-Using-Hexo/hexo_default_site.png">
 <meta property="og:image" content="http://me.atige.tech/2016/03/20/Set-Up-Your-Own-Blogging-Site-Using-Hexo/myfirstpost.png">
 <meta property="og:image" content="http://me.atige.tech/2016/03/20/Set-Up-Your-Own-Blogging-Site-Using-Hexo/deploy_to_git_config.png">
-<meta property="og:updated_time" content="2016-03-22T03:02:16.000Z">
+<meta property="og:image" content="http://me.atige.tech/2016/03/20/Set-Up-Your-Own-Blogging-Site-Using-Hexo/Google_Analytics.png">
+<meta property="og:image" content="http://me.atige.tech/2016/03/20/Set-Up-Your-Own-Blogging-Site-Using-Hexo/tracking_id.png">
+<meta property="og:updated_time" content="2016-03-25T05:21:19.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Set Up Your Own Blogging Site Using Hexo">
 <meta name="twitter:description" content="Recently, I came across github pages, github pages is a service which github helps you host your static site in github repository, it’s completely free to everyone. So I’m thinking to have my own blog">
@@ -137,6 +139,13 @@
 <li>push your work in process content to the source branch of origin upstream</li>
 </ol>
 <p>Now you wip content is pushed and stored on the source branch of github. Next time you want to work on that blog, you only need to pull the source branch to your local machine and keep working on that. Now You can close your laptop and go to work with confidence that you can keep working on that blog when you reach office.</p>
+<h3 id="Add-Google-Analytics-to-Your-Site"><a href="#Add-Google-Analytics-to-Your-Site" class="headerlink" title="Add Google Analytics to Your Site"></a>Add Google Analytics to Your Site</h3><p>Most sites on the internet use <a href="http://www.google.com/analytics/#?modal_active=none" target="_blank" rel="external">Google Analytics</a> to analyze vistors. You can see how many visitors visited your site on a certain day, how wany of them are new visitors, how many of them are returning vistors, what operating systems they are using, what browsers they use, which contry which city do they come from …… a whole lot more. Google Analytics provide you all kinds of reports to help you understand your audience.<br><img src="/2016/03/20/Set-Up-Your-Own-Blogging-Site-Using-Hexo/Google_Analytics.png" alt="Google Aanlytics Screenshot" title="Google Aanlytics Screenshot"><br>If you haven’t got a google account, go quickly register one, afterwards, you should be able to log into google analytics using the same account. I won’t cover how to setup your site in google analytics and start monitoring. There’re plenty of tutorials on the internet, I just did a quick google search and list two here: </p>
+<ol>
+<li><a href="https://moz.com/blog/absolute-beginners-guide-to-google-analytics" target="_blank" rel="external">The Absolute Beginner’s Guide to Google Analytics</a></li>
+<li><a href="https://blog.kissmetrics.com/50-resources-for-getting-the-most-out-of-google-analytics/" target="_blank" rel="external">50 Resources for Getting the Most Out of Google Analytics</a></li>
+</ol>
+<p>I’ll assume you’ve got your site configured in google analytics, and let see how to let google start analyzing your visitors. Find your site Tracking ID like shown below:<br><img src="/2016/03/20/Set-Up-Your-Own-Blogging-Site-Using-Hexo/tracking_id.png" alt="Find the Tracking ID" title="Find the Tracking ID"></p>
+<p>Make google analytics work is really simple, if you’re using some theme in your hexo blog, mine is the default theme: landscape, google analytics is already built in, you only need to configure your Tracking ID in the theme configuration. I’ll take the landscape theme as an example, open and edit the theme configuration file: <code>themes/_config.yml</code>, in the file, you’ll find a configuration option <code>google_analytics:</code>, just copy paste your Tracking ID here, save and publish your site, that’s it, really simple. I visited my site dozens of times after integrated google analytics, it’s so exciting to see the figures updated in google analytics report. There’s even some <code>real time</code> report, which can show you analytical information about the visitors on your site right now, isn’t that Awesome !!!</p>
 <h3 id="The-End"><a href="#The-End" class="headerlink" title="The End"></a>The End</h3><p>Happy blogging!!!<br>Thanks for reading!!!<br>Leave comment if you have any question or comments.</p>
 
       
