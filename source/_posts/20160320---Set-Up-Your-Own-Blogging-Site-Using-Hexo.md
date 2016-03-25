@@ -106,6 +106,18 @@ What above command does:
 
 Now you wip content is pushed and stored on the source branch of github. Next time you want to work on that blog, you only need to pull the source branch to your local machine and keep working on that. Now You can close your laptop and go to work with confidence that you can keep working on that blog when you reach office.
 
+### Add Google Analytics to Your Site
+Most sites on the internet use [Google Analytics](http://www.google.com/analytics/#?modal_active=none) to analyze vistors. You can see how many visitors visited your site on a certain day, how wany of them are new visitors, how many of them are returning vistors, what operating systems they are using, what browsers they use, which contry which city do they come from ...... a whole lot more. Google Analytics provide you all kinds of reports to help you understand your audience.
+{% asset_img Google_Analytics.png "Google Aanlytics Screenshot" %}
+If you haven't got a google account, go quickly register one, afterwards, you should be able to log into google analytics using the same account. I won't cover how to setup your site in google analytics and start monitoring. There're plenty of tutorials on the internet, I just did a quick google search and list two here: 
+1. [The Absolute Beginner's Guide to Google Analytics](https://moz.com/blog/absolute-beginners-guide-to-google-analytics)
+2. [50 Resources for Getting the Most Out of Google Analytics](https://blog.kissmetrics.com/50-resources-for-getting-the-most-out-of-google-analytics/)
+
+I'll assume you've got your site configured in google analytics, and let see how to let google start analyzing your visitors. Find your site Tracking ID like shown below:
+{% asset_img tracking_id.png "Find the Tracking ID" %}
+
+Make google analytics work is really simple, if you're using some theme in your hexo blog, mine is the default theme: landscape, google analytics is already built in, you only need to configure your Tracking ID in the theme configuration. I'll take the landscape theme as an example, open and edit the theme configuration file: `themes/_config.yml`, in the file, you'll find a configuration option `google_analytics:`, just copy paste your Tracking ID here, save and publish your site, that's it, really simple. I visited my site dozens of times after integrated google analytics, it's so exciting to see the figures updated in google analytics report. There's even some `real time` report, which can show you analytical information about the visitors on your site right now, isn't that Awesome !!!
+
 ### The End
 Happy blogging!!!
 Thanks for reading!!!
